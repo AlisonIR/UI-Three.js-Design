@@ -12,7 +12,7 @@ const scene = new THREE.Scene();
 const geometry = new THREE.SphereGeometry(3, 64, 64);
 
 const material = new THREE.MeshStandardMaterial({
-  color:'#00ff83',
+  color:'#887635',
   roughness: 0.2
 })
 
@@ -50,7 +50,7 @@ controls.enableDamping = true
 controls.enablePan = false
 controls.enableZoom = false
 controls.autoRotate = true
-controls.autoRotateSpeed = 5
+controls.autoRotateSpeed = 20
 
 
 //Resize
